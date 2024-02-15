@@ -1,0 +1,27 @@
+public class CalculoImposto1 {
+    public static void main(String[] args) {
+        // Valores base para cada faixa
+        double[] valoresBase = {1200.00, 5000.00, 10000.00, 15000.00};
+        
+        for (double valorBase : valoresBase) {
+            double impostoAPagar;
+            String mensagem;
+
+            if (valorBase <= 1200) {
+                impostoAPagar = 0;
+                mensagem = "Isento";
+            } else if (valorBase <= 5000) {
+                impostoAPagar = valorBase * 0.10;
+                mensagem = "10% de imposto";
+            } else if (valorBase <= 10000) {
+                impostoAPagar = valorBase * 0.15;
+                mensagem = "15% de imposto";
+            } else {
+                impostoAPagar = valorBase * 0.20;
+                mensagem = "20% de imposto";
+            }
+
+            System.out.printf("Para o valor base de R$ %.2f, %s. Imposto a pagar: R$ %.2f\n", valorBase, mensagem, impostoAPagar);
+        }
+    }
+}
