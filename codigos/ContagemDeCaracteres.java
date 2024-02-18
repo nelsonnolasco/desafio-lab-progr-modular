@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class ContagemDeCaracteres {
     public static void main(String[] args) {
-        String caminhoDoArquivo = "caminho/para/o/arquivo.txt"; // Substitua pelo caminho do seu arquivo
+        String caminhoDoArquivo = "C:\\Users\\nelso\\Desktop\\Lab_Progr_modular\\Texto1.txt"; // Substitua pelo caminho do seu arquivo
 
         try (BufferedReader leitor = new BufferedReader(new FileReader(caminhoDoArquivo))) {
             int caracteres = 0;

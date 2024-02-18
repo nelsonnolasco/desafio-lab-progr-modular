@@ -3,8 +3,8 @@ import java.io.IOException;
 
 public class ComparacaoDeArquivos {
     public static void main(String[] args) {
-        String caminhoArquivo1 = "caminho/para/o/primeiro/arquivo.txt"; // Substitua pelo caminho do primeiro arquivo
-        String caminhoArquivo2 = "caminho/para/o/segundo/arquivo.txt"; // Substitua pelo caminho do segundo arquivo
+        String caminhoArquivo1 = "C:\\Users\\nelso\\Desktop\\Lab_Progr_modular\\Texto1.txt"; // Substitua pelo caminho do primeiro arquivo
+        String caminhoArquivo2 = "C:\\Users\\nelso\\Desktop\\Lab_Progr_modular\\Texto2.txt"; // Substitua pelo caminho do segundo arquivo
 
         try (FileInputStream arquivo1 = new FileInputStream(caminhoArquivo1);
              FileInputStream arquivo2 = new FileInputStream(caminhoArquivo2)) {
