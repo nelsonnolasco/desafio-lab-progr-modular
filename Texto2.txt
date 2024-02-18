@@ -1,0 +1,2 @@
+Este texto serve como exemplo para exercício do Desafio Java passado pelo professor João Caram.
+Aqui com adição de mais uma linha.
