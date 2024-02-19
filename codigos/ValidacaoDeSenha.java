@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class ValidacaoDeSenha {
-    private static final String ARQUIVO_USUARIOS = "usuarios.txt";
+    private static final String ARQUIVO_USUARIOS = "C:\\NELSON_NOLASCO\\ENGENHARIA DE SOFTWARE PUC\\8 - 2024_01\\2-Lab_Programacao_Modular\\Desafio\\desafio-lab-progr-modular\\usuarios.txt";
     private static final Scanner scanner = new Scanner(System.in);
     private static final Map<String, String> usuarios = new HashMap<>();
 
