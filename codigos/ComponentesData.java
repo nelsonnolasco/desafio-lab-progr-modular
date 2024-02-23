@@ -4,7 +4,7 @@ public class ComponentesData {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        // Solicita ao usuário que insira uma data no formato 'dd/mm/aa'
+        // Solicita que seja inserida uma data no formato 'dd/mm/aa'
         System.out.print("Digite uma data no formato 'dd/mm/aa': ");
         String data = scanner.nextLine();
         

@@ -5,7 +5,7 @@ public class Losangos {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        // Solicita ao usuário a linha e a coluna para o topo do primeiro losango
+        // Solicita a linha e a coluna para o topo do primeiro losango
         System.out.print("Digite a linha para o topo do primeiro losango: ");
         int linha = scanner.nextInt();
         System.out.print("Digite a coluna para o topo do primeiro losango: ");
@@ -34,4 +34,3 @@ public class Losangos {
         scanner.close();
     }
 }
-çççççç

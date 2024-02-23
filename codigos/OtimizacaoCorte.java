@@ -1,7 +1,7 @@
 public class OtimizacaoCorte {
 
     public static void main(String[] args) {
-        // Comprimentos das tábuas em centímetros
+        // Comprimentos das tábuas em centímetros. (fiz muitos destes exercícios em Python em Cálculo Numárico)
         int[] comprimentosTabuas = {300, 400, 500};
         int comprimentoPeca = 45;
 

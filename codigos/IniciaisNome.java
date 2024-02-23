@@ -12,7 +12,7 @@ public class IniciaisNome {
         System.out.print("Digite seu sobrenome: ");
         String sobrenome = scanner.next();
         
-        // Obtém as iniciais
+        // Obtém as iniciais, no caso, utilizando também o nome do meio como é comum no aqui no Brasil
         char inicialNome = nome.charAt(0);
         char inicialNomeMeio = nomeMeio.charAt(0);
         char inicialSobrenome = sobrenome.charAt(0);
